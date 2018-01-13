@@ -34,8 +34,9 @@
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
-<?= $this->tag->javascriptInclude('assets/pnotify/src/pnotify.js') ?>
-<?= $this->tag->stylesheetLink('assets/pnotify/src/pnotify.css') ?>
+<?= $this->tag->stylesheetLink('assets/pnotify/pnotify.css') ?>
+
+<?= $this->tag->stylesheetLink('assets/pnotify/pnotify.brighttheme.css') ?>
     </head>
     <body class="hold-transition skin-blue sidebar-mini">
     <div class="wrapper">
@@ -376,6 +377,11 @@
 <!-- AdminLTE for demo purposes -->
 <?= $this->tag->javascriptInclude('assets/dist/js/demo.js') ?>
 <!-- page script -->
+
+<?= $this->tag->javascriptInclude('assets/pnotify/pnotify.js') ?>
+<?= $this->tag->javascriptInclude('assets/pnotify/pnotify.buttons.js') ?>
+<?= $this->tag->javascriptInclude('assets/pnotify/pnotify.nonblock.js') ?>
+
 <script>
   $(function () {
     $('#example1').DataTable()

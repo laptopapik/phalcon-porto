@@ -17,6 +17,11 @@
 <!-- AdminLTE for demo purposes -->
 <?= $this->tag->javascriptInclude('assets/dist/js/demo.js') ?>
 <!-- page script -->
+
+<?= $this->tag->javascriptInclude('assets/pnotify/pnotify.js') ?>
+<?= $this->tag->javascriptInclude('assets/pnotify/pnotify.buttons.js') ?>
+<?= $this->tag->javascriptInclude('assets/pnotify/pnotify.nonblock.js') ?>
+
 <script>
   $(function () {
     $('#example1').DataTable()

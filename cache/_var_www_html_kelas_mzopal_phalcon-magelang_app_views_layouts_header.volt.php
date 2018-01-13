@@ -31,5 +31,6 @@
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
-<?= $this->tag->javascriptInclude('assets/pnotify/src/pnotify.js') ?>
-<?= $this->tag->stylesheetLink('assets/pnotify/src/pnotify.css') ?>
+<?= $this->tag->stylesheetLink('assets/pnotify/pnotify.css') ?>
+
+<?= $this->tag->stylesheetLink('assets/pnotify/pnotify.brighttheme.css') ?>
